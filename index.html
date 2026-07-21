@@ -3,14 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  <title>PTC Lab</title>
   <style>
-    body { text-align: center; padding-top: 100px; background: #e6f7ff; font-family: Arial, sans-serif; }
-    h1 { color: #007bff; }
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #f5f7fa; }
+    header { background: #0d6efd; color: white; padding: 20px; text-align: center; }
+    header h1 { font-size: 28px; }
+    nav { margin-top: 10px; }
+    nav a { color: white; text-decoration: none; background: #198754; padding: 10px 20px; border-radius: 5px; margin: 5px; display: inline-block; }
+    .hero { text-align: center; padding: 40px 20px; background: white; }
+    .hero h2 { color: #0d6efd; margin-bottom: 10px; }
+    .plans { display: flex; justify-content: center; gap: 20px; padding: 40px 20px; flex-wrap: wrap; }
+    .card { background: white; padding: 25px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 280px; text-align: center; }
+    .card h3 { color: #0d6efd; margin-bottom: 10px; }
+    .price { font-size: 32px; color: #198754; font-weight: bold; margin: 15px 0; }
+    .btn { background: #0d6efd; color: white; padding: 12px 25px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 10px; }
+    .btn:hover { background: #0b5ed7; }
+    footer { background: #212529; color: white; text-align: center; padding: 20px; margin-top: 30px; }
   </style>
 </head>
 <body>
-  <h1>Assalam o Alaikum! 👋</h1>
-  <p>میری پہلی website GitHub Pages پر live ہے 🎉</p>
+  <header>
+    <h1>PTC Lab</h1>
+    <p>Earn Money By Watching Ads</p>
+    <nav>
+      <a href="#">Login</a>
+      <a href="#">Register</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Welcome to PTC Lab</h2>
+    <p>Click ads daily and earn real money. Fast payments via JazzCash & Easypaisa</p>
+  </div>
+
+  <div class="plans">
+    <div class="card">
+      <h3>Basic Plan</h3>
+      <div class="price">$5</div>
+      <p>50 Ads Per Day</p>
+      <p>$0.01 Per Ad</p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="card">
+      <h3>Standard Plan</h3>
+      <div class="price">$10</div>
+      <p>100 Ads Per Day</p>
+      <p>$0.015 Per Ad</p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+    <div class="card">
+      <h3>Premium Plan</h3>
+      <div class="price">$20</div>
+      <p>200 Ads Per Day</p>
+      <p>$0.02 Per Ad</p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>WhatsApp: +92 3XX XXXXXXX</p>
+    <p>© 2026 PTC Lab. All Rights Reserved</p>
+  </footer>
 </body>
 </html>
